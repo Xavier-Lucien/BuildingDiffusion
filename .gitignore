@@ -1,0 +1,50 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime outputs
+runs/
+samples/
+outputs/
+logs/
+*.log
+metrics.jsonl
+relation_metrics.json
+
+# Generated/preprocessed datasets
+data/
+BoxCenterSizeLabelNp/
+dataset/_tmp_preprocess/
+dataset/**/*.npz
+dataset/**/*.npy
+dataset/**/building_train.lst
+dataset/**/dataset_stats.txt
+
+# Model checkpoints and weights
+model_[0-9]*
+opt_[0-9]*
+*.pt
+*.pth
+*.ckpt
+
+# Local smoke-check files
+_smoke_check.*
+_fwd_check.*
+_compile_check.*

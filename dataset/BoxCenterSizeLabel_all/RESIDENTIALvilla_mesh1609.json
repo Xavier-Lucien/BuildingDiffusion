@@ -1,0 +1,338 @@
+[
+    {
+        "actor_label": "Cube",
+        "actor_location": [
+            1389.7436915563142,
+            1294.6448013659196,
+            1345.1832476324726
+        ],
+        "actor_size": [
+            2183.8829438742077,
+            2575.0,
+            475.0
+        ],
+        "materials": [
+            "wallMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube2",
+        "actor_location": [
+            297.8718457781572,
+            2268.2602394329842,
+            1350.0367289404198
+        ],
+        "actor_size": [
+            25.0,
+            625.3846612003417,
+            357.36266354305235
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube3",
+        "actor_location": [
+            866.892334570867,
+            2580.9525700331556,
+            813.9927336258415
+        ],
+        "actor_size": [
+            939.64541682384,
+            25.0,
+            536.0439953145786
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube4",
+        "actor_location": [
+            1707.399392483472,
+            397.0696261589471,
+            948.0037324544861
+        ],
+        "actor_size": [
+            277.9487383112628,
+            25.0,
+            268.02199765728915
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube5",
+        "actor_location": [
+            769.3224006829598,
+            0.0,
+            1698.2171573785465
+        ],
+        "actor_size": [
+            585.6776985844467,
+            25.0,
+            259.58426810141145
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube6",
+        "actor_location": [
+            1912.5950485417618,
+            2580.9525700331556,
+            813.9927336258415
+        ],
+        "actor_size": [
+            939.6454168238402,
+            25.0,
+            536.0439953145786
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube7",
+        "actor_location": [
+            2481.6851634934187,
+            1310.329766324525,
+            1350.0367289404198
+        ],
+        "actor_size": [
+            25.0,
+            2342.7107943377873,
+            357.36266354305235
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube8",
+        "actor_location": [
+            1072.0879906291568,
+            397.0696261589471,
+            948.0037324544861
+        ],
+        "actor_size": [
+            277.9487383112628,
+            25.0,
+            268.02199765728915
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube9",
+        "actor_location": [
+            2481.6851634934187,
+            1489.0110980960512,
+            813.9927336258415
+        ],
+        "actor_size": [
+            25.0,
+            1985.3481307947345,
+            536.0439953145786
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube10",
+        "actor_location": [
+            297.80221961921035,
+            1806.6667990232088,
+            813.9927336258415
+        ],
+        "actor_size": [
+            25.0,
+            1350.0367289404198,
+            536.0439953145786
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube11",
+        "actor_location": [
+            595.6044392384206,
+            397.0696261589471,
+            1027.4176576862756
+        ],
+        "actor_size": [
+            397.0696261589469,
+            25.0,
+            109.19414719371059
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube12",
+        "actor_location": [
+            2010.164982429669,
+            0.0,
+            1698.2171573785465
+        ],
+        "actor_size": [
+            585.6776985844467,
+            25.0,
+            259.58426810141145
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube13",
+        "actor_location": [
+            1389.7436915563142,
+            1297.6448013659196,
+            1841.4103913121166
+        ],
+        "actor_size": [
+            2183.8829438742077,
+            2575.0,
+            545.9707359685524
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube15",
+        "actor_location": [
+            1086.9781016101174,
+            789.1758819909072,
+            1810.389326768449
+        ],
+        "actor_size": [
+            218.38829438742096,
+            168.75459111755254,
+            1059.67956481169
+        ],
+        "materials": [
+            "chimneyMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube16",
+        "actor_location": [
+            1389.7436920000002,
+            1493.644801,
+            824.183248
+        ],
+        "actor_size": [
+            2183.8829000000005,
+            2175.0,
+            575.0
+        ],
+        "materials": [
+            "wallMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube17",
+        "actor_location": [
+            1385.087991,
+            397.069626,
+            845.0037320000001
+        ],
+        "actor_size": [
+            277.9486999999999,
+            25.0,
+            475.0000000000001
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube18",
+        "actor_location": [
+            1874.743692,
+            2827.644801,
+            1841.410391
+        ],
+        "actor_size": [
+            1200.0,
+            500.0,
+            545.9706999999999
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube19",
+        "actor_location": [
+            1874.743692,
+            2827.644801,
+            1235.410391
+        ],
+        "actor_size": [
+            1200.0,
+            500.0,
+            275.0
+        ],
+        "materials": [
+            "balconyMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube20",
+        "actor_location": [
+            694.871846,
+            2581.260239,
+            1350.036729
+        ],
+        "actor_size": [
+            794.1392999999998,
+            25.0,
+            357.36270000000013
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube21",
+        "actor_location": [
+            2233.871846,
+            2581.260239,
+            1461.036729
+        ],
+        "actor_size": [
+            300.0,
+            25.0,
+            150.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube22",
+        "actor_location": [
+            1924.871846,
+            2581.260239,
+            1389.036729
+        ],
+        "actor_size": [
+            200.0,
+            25.0,
+            425.0
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    }
+]

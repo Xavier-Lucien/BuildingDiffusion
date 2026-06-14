@@ -1,0 +1,75 @@
+# 精简后的默认配置，对应原 BuildingBlock/config/uncond/diffusion_building_DIT.yaml
+# 只保留最必要的字段，便于初学者阅读。
+
+data:
+  dataset_type: cached_buildingBlocks
+  encoding_type: cached_diffusion_cosin_angle_wocm_prmAll
+  dataset_directory: ../BoxCenterSizeLabelNp
+  annotation_file: ../dataset/building_splits.csv
+  train_stats: dataset_stats.txt
+  max_length: 128
+  pad_zero: false       # padding 用重复构件填充 bbox 属性（与原训练一致）；true 则填 0
+  augmentations: null
+
+network:
+  type: diffusion_scene_layout_ddpm
+  net_type: dit_adaln
+  point_dim: 22        # bbox_dim(8) + class_dim(14)；bbox = trans(3)+size(3)+angle(2)
+  class_dim: 14
+  translation_dim: 3
+  size_dim: 3
+  angle_dim: 2
+  sample_num_points: 128
+  loss_iou_mode: overlap_ratio
+  size_half: false
+  split_heads: false   # true 时 class 走 CE / objectness 走 BCE，bbox 仍走扩散（见 split_heads.yaml）
+  loss_validity: false # true 时加 size 越界惩罚 + angle 单位化正则（作用在还原的 x0 上）
+
+  diffusion_kwargs:
+    schedule_type: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    time_num: 1000
+    loss_type: mse
+    model_mean_type: v
+    model_var_type: fixedsmall
+    loss_iou: true
+    loss_separate: true
+    # train_stats_file 留空：由 builder 从 data.dataset_directory 自动推导
+
+  net_kwargs:
+    dim: 512
+    width: 512
+    n_ctx: 128
+    channels: 22
+    class_dim: 14
+    translation_dim: 3
+    size_dim: 3
+    angle_dim: 2
+    context_dim: 0
+    layers: 12
+    seperate_all: true
+    pos_embeding_way: learned
+    size_half: false
+
+training:
+  splits: [train, val]
+  epochs: 100000
+  steps_per_epoch: 500
+  batch_size: 64
+  save_frequency: 1000
+  optimizer: Adam
+  lr: 0.0002
+  weight_decay: 0.0
+  schedule: step
+  lr_step: 10000
+  lr_decay: 0.5
+  max_grad_norm: 10
+
+validation:
+  splits: [test]
+  frequency: 1000
+  batch_size: 1
+
+logger:
+  project: BuildingDiffusion

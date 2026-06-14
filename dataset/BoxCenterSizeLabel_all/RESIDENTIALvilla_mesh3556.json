@@ -1,0 +1,194 @@
+[
+    {
+        "actor_label": "Cube",
+        "actor_location": [
+            3556.05592057152,
+            2237.5258678298333,
+            209.49204915231093
+        ],
+        "actor_size": [
+            404.02701809475457,
+            404.02701809475434,
+            185.8524283235869
+        ],
+        "materials": [
+            "wallMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube2",
+        "actor_location": [
+            3596.458622380996,
+            2240.3742583074018,
+            392.3142748401871
+        ],
+        "actor_size": [
+            484.8324217137051,
+            484.8324217137051,
+            179.79202305216552
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube3",
+        "actor_location": [
+            3755.964448854624,
+            2282.643564940475,
+            158.98867189046663
+        ],
+        "actor_size": [
+            25.0,
+            29.089945302822343,
+            76.76513343800326
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube4",
+        "actor_location": [
+            3782.311050704583,
+            2197.270635881963,
+            208.68399511612142
+        ],
+        "actor_size": [
+            48.483242171370875,
+            323.5165541990127,
+            25.0
+        ],
+        "materials": [
+            "balconyMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube5",
+        "actor_location": [
+            3755.964449,
+            2104.643565,
+            164.988672
+        ],
+        "actor_size": [
+            25.0,
+            100.0,
+            100.0
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube6",
+        "actor_location": [
+            3755.964449,
+            2395.643565,
+            174.988672
+        ],
+        "actor_size": [
+            25.0,
+            75.0,
+            75.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube7",
+        "actor_location": [
+            3755.964449,
+            2196.643565,
+            254.988672
+        ],
+        "actor_size": [
+            25.0,
+            175.0,
+            100.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube8",
+        "actor_location": [
+            3356.964449,
+            2397.643565,
+            175.988672
+        ],
+        "actor_size": [
+            25.0,
+            75.0,
+            75.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube9",
+        "actor_location": [
+            3452.964449,
+            2439.643565,
+            264.988672
+        ],
+        "actor_size": [
+            100.0,
+            25.0,
+            50.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube10",
+        "actor_location": [
+            3658.964449,
+            2439.643565,
+            264.988672
+        ],
+        "actor_size": [
+            100.0,
+            25.0,
+            50.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube11",
+        "actor_location": [
+            3555.964449,
+            2439.643565,
+            171.988672
+        ],
+        "actor_size": [
+            400.0,
+            25.0,
+            75.0
+        ],
+        "materials": [
+            "windowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube12",
+        "actor_location": [
+            3661.964449,
+            2462.643565,
+            396.988672
+        ],
+        "actor_size": [
+            50.0,
+            50.0,
+            75.0
+        ],
+        "materials": [
+            "chimneyMaterial"
+        ]
+    }
+]

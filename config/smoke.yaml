@@ -1,0 +1,77 @@
+# 冒烟配置：算法改动后的默认快速验证。
+# 与 default.yaml 通道约定完全一致，只把网络/时间步/批量改到最小，
+# 配合 `--max_steps 1` 可在几秒内跑通 preprocess -> train 一步。
+#
+# 用法（需已存在预处理数据）：
+#   python train.py config/smoke.yaml runs/smoke --max_steps 1
+
+data:
+  dataset_type: cached_buildingBlocks
+  encoding_type: cached_diffusion_cosin_angle_wocm_prmAll
+  dataset_directory: ../BoxCenterSizeLabelNp
+  annotation_file: ../dataset/building_splits.csv
+  train_stats: dataset_stats.txt
+  max_length: 128
+  pad_zero: false
+  augmentations: null
+
+network:
+  type: diffusion_scene_layout_ddpm
+  net_type: dit_adaln
+  point_dim: 22        # bbox_dim(8) + class_dim(14)；bbox = trans(3)+size(3)+angle(2)
+  class_dim: 14
+  translation_dim: 3
+  size_dim: 3
+  angle_dim: 2
+  sample_num_points: 128
+  loss_iou_mode: overlap_ratio
+  size_half: false
+
+  diffusion_kwargs:
+    schedule_type: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    time_num: 4          # 1000 -> 4，仅验证前向/反向能跑通
+    loss_type: mse
+    model_mean_type: v
+    model_var_type: fixedsmall
+    loss_iou: true
+    loss_separate: true
+
+  net_kwargs:
+    dim: 64              # 512 -> 64
+    width: 64            # 512 -> 64
+    n_ctx: 128
+    channels: 22
+    class_dim: 14
+    translation_dim: 3
+    size_dim: 3
+    angle_dim: 2
+    context_dim: 0
+    layers: 1            # 12 -> 1
+    seperate_all: true
+    pos_embeding_way: learned
+    size_half: false
+
+training:
+  splits: [train, val]
+  epochs: 1
+  steps_per_epoch: 1
+  max_steps: 1           # 每次 run 只训练 1 个 step
+  batch_size: 4          # 64 -> 4
+  save_frequency: 1000
+  optimizer: Adam
+  lr: 0.0002
+  weight_decay: 0.0
+  schedule: step
+  lr_step: 10000
+  lr_decay: 0.5
+  max_grad_norm: 10
+
+validation:
+  splits: [test]
+  frequency: 1000
+  batch_size: 1
+
+logger:
+  project: BuildingDiffusion

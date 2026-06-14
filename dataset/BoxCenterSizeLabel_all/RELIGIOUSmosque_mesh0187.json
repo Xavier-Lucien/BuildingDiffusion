@@ -1,0 +1,226 @@
+[
+    {
+        "actor_label": "Cube",
+        "actor_location": [
+            2857.563761557043,
+            2365.7092484104737,
+            752.4363495016242
+        ],
+        "actor_size": [
+            3075.0000000000005,
+            2575.0,
+            1415.9980009439987
+        ],
+        "materials": [
+            "wallWithManyWindowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube2",
+        "actor_location": [
+            2753.1506788461006,
+            2365.896659910598,
+            2123.6261487630845
+        ],
+        "actor_size": [
+            1650.0,
+            1661.3543604409033,
+            450.0
+        ],
+        "materials": [
+            "wallWithManyWindowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube94",
+        "actor_location": [
+            912.346947274898,
+            2393.0782685953864,
+            426.201515950801
+        ],
+        "actor_size": [
+            25.0,
+            166.58800011105814,
+            235.99966682399975
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube100",
+        "actor_location": [
+            1467.6402809784267,
+            3795.9852291973243,
+            4389.607685259739
+        ],
+        "actor_size": [
+            27.764666685176053,
+            27.764666685176962,
+            27.764666685176053
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube102",
+        "actor_location": [
+            677.450925951634,
+            2386.00469222867,
+            169.3783491129189
+        ],
+        "actor_size": [
+            469.792042646528,
+            1149.2628480995081,
+            249.88200016658803
+        ],
+        "materials": [
+            "stairMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube105",
+        "actor_location": [
+            2665.2900019435265,
+            2369.887830746593,
+            1687.4522864203016
+        ],
+        "actor_size": [
+            2516.769858677846,
+            2481.2588499875064,
+            450.0
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube106",
+        "actor_location": [
+            2753.6996418358003,
+            2365.8966599105984,
+            2682.080684121387
+        ],
+        "actor_size": [
+            1650.0,
+            1650.0,
+            694.1166671294113
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube93",
+        "actor_location": [
+            2857.5637619999998,
+            2365.709248,
+            1483.43635
+        ],
+        "actor_size": [
+            3074.9999999999995,
+            2575.0,
+            50.0
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube109",
+        "actor_location": [
+            1120.5819474137209,
+            2393.0782685953855,
+            780.2010161868006
+        ],
+        "actor_size": [
+            425.0,
+            1250.0,
+            194.35266679623533
+        ],
+        "materials": [
+            "roofMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube110",
+        "actor_location": [
+            1120.581947,
+            2393.078269,
+            370.201016
+        ],
+        "actor_size": [
+            425.0,
+            1250.0,
+            650.0
+        ],
+        "materials": [
+            "wallWithManyWindowMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube101",
+        "actor_location": [
+            1753.102702,
+            3657.161896,
+            174.083849
+        ],
+        "actor_size": [
+            138.82330000000002,
+            25.0,
+            250.0
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube103",
+        "actor_location": [
+            1753.102702,
+            1072.161896,
+            174.083849
+        ],
+        "actor_size": [
+            138.82330000000002,
+            25.0,
+            250.0
+        ],
+        "materials": [
+            "doorMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube104",
+        "actor_location": [
+            1467.6402809784267,
+            3795.9852291973243,
+            2196.1990171307993
+        ],
+        "actor_size": [
+            392.9810922619872,
+            392.9810922619881,
+            4303.523336202349
+        ],
+        "materials": [
+            "pillarMaterial"
+        ]
+    },
+    {
+        "actor_label": "Cube99",
+        "actor_location": [
+            1467.6402809784267,
+            935.4263264569507,
+            2223.9636838159763
+        ],
+        "actor_size": [
+            392.9810922619872,
+            392.9672099286447,
+            4359.052669572703
+        ],
+        "materials": [
+            "pillarMaterial"
+        ]
+    }
+]
